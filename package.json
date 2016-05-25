@@ -1,7 +1,7 @@
 {
   "name": "blear.core.touch",
-  "version": "1.0.1",
-  "description": "location querystring",
+  "version": "1.0.2",
+  "description": "DOM 核心 支持 fastclick",
   "scripts": {
     "live": "browser-sync start --config bs-config.js"
   },

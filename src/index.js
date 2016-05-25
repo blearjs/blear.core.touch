@@ -7,8 +7,8 @@
 
 'use strict';
 
-var FastClick = require('../shims/fastclick.js');
+var FastClick = require('blear.shims.fastclick');
 
 FastClick.attach(document.body);
 
-module.exports = require('./event.js');
+module.exports = require('blear.core.event');
