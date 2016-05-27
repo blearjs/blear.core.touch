@@ -7,7 +7,7 @@
 
 'use strict';
 
-var FastClick = require('blear.shims.fastclick');
+var FastClick = require('./fastclick');
 
 FastClick.attach(document.body);
 

@@ -1,7 +1,7 @@
 {
   "name": "blear.core.touch",
-  "version": "1.0.2",
-  "description": "DOM 核心 支持 fastclick",
+  "version": "1.0.3",
+  "description": "DOM 核心：触摸事件支持 fastclick",
   "scripts": {
     "live": "browser-sync start --config bs-config.js"
   },
@@ -35,7 +35,6 @@
   },
   "dependencies": {},
   "peerDependencies": {
-    "blear.shims.fastclick": "1.x",
     "blear.core.event": "1.x"
   },
   "devDependencies": {
