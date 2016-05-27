@@ -7,7 +7,7 @@
 
 'use strict';
 
-var FastClick = require('./fastclick');
+var FastClick = require('./_fastclick.js');
 
 FastClick.attach(document.body);
 
